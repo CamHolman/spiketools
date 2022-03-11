@@ -16,9 +16,9 @@ with open("requirements.txt") as requirements_file:
     install_requires = requirements_file.read().splitlines()
 
 setup(
-    name = 'spiketools',
+    name = 'analyzeTH',
     version = __version__,
-    description = 'Module for analyzing spiking data.',
+    description = 'Module for analyzing spiking data from the Treasure Hunt task.',
     long_description = long_description,
     python_requires = '>=3.6',
     maintainer = 'Thomas Donoghue',
